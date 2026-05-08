@@ -48,6 +48,7 @@ def rectangle(x, y, width, height):
 
 def draw():
     """Draw game and move pong ball."""
+    fillcolor('blue')
     clear()
     rectangle(-200, state[1], 10, 50)
     rectangle(190, state[2], 10, 50)
