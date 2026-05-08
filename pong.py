@@ -26,14 +26,13 @@ ball = vector(0, 0)
 aim = vector(value(), value())
 state = {1: 0, 2: 0}
 
-
 def move(player, change):
-    """Move player position by change."""
+    """Cambia la posición del jugador."""
     state[player] += change
 
 
 def rectangle(x, y, width, height):
-    """Draw rectangle at (x, y) with given width and height."""
+    """Dibuja un rectángulo en (x, y) con el ancho y la altura dados."""
     up()
     goto(x, y)
     down()
@@ -47,8 +46,8 @@ def rectangle(x, y, width, height):
 
 
 def draw():
-    """Draw game and move pong ball."""
-    fillcolor('blue')
+    """Dibuja el juego y mueve la pelota de pong."""
+    fillcolor('blue') #El color de las pelotas es de color azul
     clear()
     rectangle(-200, state[1], 10, 50)
     rectangle(190, state[2], 10, 50)
