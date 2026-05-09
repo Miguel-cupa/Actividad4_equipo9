@@ -11,9 +11,8 @@ Modificaciones: Cambio el color del flappy de verde a azul y aumento su tamaño 
 ===
 
 Nombre: Miguel Cupa Puga
-
+Matrícula: A01713234
 Juego: Pong
-
 Modificaciones: Cambio color de las paletas a azul y documentación de funciones.
 
 
