@@ -15,4 +15,9 @@ Matrícula: A01713234
 Juego: Pong
 Modificaciones: Cambio color de las paletas a azul y documentación de funciones.
 
+===
+Nombre: Ximena Zepeda Echeverria 
+Matricula: A01707322
+Juego: Snake
+Modificaciones: cambio de color en la comida, aumento de velocidad y correcion de errores en flake8
 
